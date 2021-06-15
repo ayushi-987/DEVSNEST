@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link type="text/css" rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="wrapper">
+    <div class="calculator">
+    <form name="forms">
+    <input type="text" name="output" id="output"><br><br>
+    <input type="button" value="AC" id="AC" onclick="forms.output.value ='' ">
+    <input type="button" value="%" onclick="forms.output.value +='%' ">
+    <input type="button" value="/" onclick="forms.output.value +='/' ">
+    <input type="button" value="=" id="equals" onclick="forms.output.value = eval(forms.output.value) "><br>
+    <input type="button" value="7" onclick="forms.output.value +='7' ">
+    <input type="button" value="8" onclick="forms.output.value +='8' ">
+    <input type="button" value="9" onclick="forms.output.value +='9' ">
+    <input type="button" value="*" onclick="forms.output.value +='*' "><br>
+    <input type="button" value="4" onclick="forms.output.value +='4' ">
+    <input type="button" value="5" onclick="forms.output.value +='5' ">
+    <input type="button" value="6" onclick="forms.output.value +='6' ">
+    <input type="button" value="-" onclick="forms.output.value +='-' "><br>
+    <input type="button" value="1" onclick="forms.output.value +='1' ">
+    <input type="button" value="2" onclick="forms.output.value +='2' ">
+    <input type="button" value="3" onclick="forms.output.value +='3' ">
+    <input type="button" value="^" onclick="forms.output.value +='**' "><br>
+    <input type="button" value="0" onclick="forms.output.value +='0' ">
+    <input type="button" value="00" onclick="forms.output.value +='00' ">
+    <input type="button" value="." onclick="forms.output.value +='.' ">
+    <input type="button" value="+" id="sum" onclick="forms.output.value +='+' "><br>
+    </form>
+    </div>
+</div>
+</body>
+</html>
