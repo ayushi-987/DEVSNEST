@@ -22,3 +22,10 @@ function flipCard() {
   snd = this;
   match();
 }
+
+function disableCards() {
+  fst.removeEventListener('click', flipCard);
+  snd.removeEventListener('click', flipCard);
+
+  resetBoard();
+}
