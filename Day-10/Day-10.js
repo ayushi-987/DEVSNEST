@@ -29,3 +29,13 @@ function disableCards() {
 
   resetBoard();
 }
+function unflipCards() {
+  lock = 1;
+
+  setTimeout(() => {
+    fst.classList.remove('flip');
+    snd.classList.remove('flip');
+
+    resetBoard();
+  }, 1500);
+}
