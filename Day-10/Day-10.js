@@ -1,11 +1,10 @@
 const cards = document.querySelectorAll('.Card');
 cards.forEach(card => card.addEventListener('click', flipCard));
 
-function match() {
-  let isMatch = fst.dataset.name === snd.dataset.name;
+let flipped = 0;
+let lock = 0;
+let fst, snd;
 
-  isMatch ? disableCards() : unflipCards();
-}
 function flipCard() {
   if (lock) return;
   if (this === fst) return;
@@ -23,12 +22,19 @@ function flipCard() {
   match();
 }
 
+function match() {
+  let isMatch = fst.dataset.name === snd.dataset.name;
+
+  isMatch ? disableCards() : unflipCards();
+}
+
 function disableCards() {
   fst.removeEventListener('click', flipCard);
   snd.removeEventListener('click', flipCard);
 
   resetBoard();
 }
+
 function unflipCards() {
   lock = 1;
 
@@ -39,6 +45,7 @@ function unflipCards() {
     resetBoard();
   }, 1500);
 }
+
 function resetBoard() {
   [flipped, lock] = [0, 0];
   [fst, snd] = [null, null];
