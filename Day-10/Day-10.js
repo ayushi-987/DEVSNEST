@@ -6,3 +6,19 @@ function match() {
 
   isMatch ? disableCards() : unflipCards();
 }
+function flipCard() {
+  if (lock) return;
+  if (this === fst) return;
+
+  this.classList.add('flip');
+
+  if (!flipped) {
+    flipped = 1;
+    fst = this;
+
+    return;
+  }
+
+  snd = this;
+  match();
+}
