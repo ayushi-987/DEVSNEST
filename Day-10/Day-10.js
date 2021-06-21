@@ -39,3 +39,7 @@ function unflipCards() {
     resetBoard();
   }, 1500);
 }
+function resetBoard() {
+  [flipped, lock] = [0, 0];
+  [fst, snd] = [null, null];
+}
