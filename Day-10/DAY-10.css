@@ -7,8 +7,8 @@
 body {
   height: 100vh;
   display: flex;
-  background:rgb(0, 23, 39);
-  border:15px solid cadetblue;
+  background:rgb(5, 20, 31);
+  border:8px dashed rgb(3, 96, 119);
   border-radius: 4px;
 }
 
