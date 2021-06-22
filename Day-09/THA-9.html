@@ -5,52 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>document</title>
-    <link type="text/css" rel="stylesheet" href="Day-9.css">
+    <link type="text/css" rel="stylesheet" href="THA-9.css">
 </head>
 <body>
-    <script>
-        function myFunction()
-        {   
-            document.getElementById("pixel").style.color = '#F08080';
+     <script>
+        var item=[];
+        for (let i=1;i<=36;i++)
+        {
+            item[i]=0;
+        }
+
+        function c(classname){
+            element=document.getElementsByClassName(classname);
+            console.log(element);
+            n=element
+            if(item[n]==0){
+                item[n]=1;
+                element[0].style.backgroundColor="pink";
+            }
+            else{
+                item[n]=0;
+                element[0].style.backgroundColor="rgb(111, 154, 202)";
+            }
         }
     </script>
     <div class="container">
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
-        <div class="box" id="pixel" onclick="myFunction()"></div>
+        <div class="1" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="2" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="3" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="4" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="5" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="6" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="7" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="8" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="9" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="10" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="11" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="12" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="13" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="14" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="15" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="16" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="17" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="18" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="19" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="20" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="21" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="22" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="23" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="24" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="25" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="26" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="27" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="28" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="29" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="30" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="31" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="32" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="33" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="34" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="35" id="pixel" onclick="c(this.getAttribute('class'));"></div>
+        <div class="36" id="pixel" onclick="c(this.getAttribute('class'));"></div>
     </div>
 </body>
 </html>
