@@ -5,4 +5,4 @@
 >
 >_discussing frontend basics in this class and how we can show data/content on a webpage in addition with some styling _
 
-<img src="https://drive.google.com/uc?export=view&id=1PVUnoOEdIOPaTL_QBOJUr3e9b03dM9bk" width="720" height="650">
+<img src="https://drive.google.com/uc?export=view&id=1yh73b9Rrb-5Cc0sXQpaTVEoI9CbsVgib" width="720" height="650">
