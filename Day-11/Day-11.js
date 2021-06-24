@@ -46,3 +46,13 @@ function basicFunction(ques,a,b,c,d,correct) {
   document.getElementById("option5.3").innerHTML = Quiz5.optionc;
   document.getElementById("option5.4").innerHTML = Quiz5.optiond;
   
+  let score=0;
+
+  var item=[];
+item[1]=Quiz1.correct;
+item[2]=Quiz2.correct;
+item[3]=Quiz3.correct;
+item[4]=Quiz4.correct;
+item[5]=Quiz5.correct;
+
+  
