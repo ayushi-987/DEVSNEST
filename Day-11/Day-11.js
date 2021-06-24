@@ -55,4 +55,69 @@ item[3]=Quiz3.correct;
 item[4]=Quiz4.correct;
 item[5]=Quiz5.correct;
 
-  
+function Selection(classname){
+    let element=document.getElementsByClassName(classname)
+    console.log(element);
+    
+    if(classname>=2 && classname<=5){
+    if(element[0].innerHTML ===item[1]){
+      console.log(score++);
+      element[0].style.backgroundColor="green";
+      document.getElementById("SCORE").innerHTML = score;
+    }
+    else{
+      console.log(score);
+      element[0].style.backgroundColor="darkred";
+      document.getElementById("SCORE").innerHTML = score;
+    }
+    }
+    if(classname>=6 && classname<=10){
+        if(element[0].innerHTML===item[2]){
+          console.log(score++);
+          element[0].style.backgroundColor="green";
+          document.getElementById("SCORE").innerHTML = score;
+        }
+        else{
+          console.log(score);
+          element[0].style.backgroundColor="darkred";
+          document.getElementById("SCORE").innerHTML = score;
+        }
+        }
+     if(classname>=11 && classname<=15){
+          if(element[0].innerHTML===item[3]){
+            console.log(score++);
+            element[0].style.backgroundColor="green";
+            document.getElementById("SCORE").innerHTML = score;
+          }
+          else{
+            console.log(score);
+            element[0].style.backgroundColor="darkred";
+            document.getElementById("SCORE").innerHTML = score;
+          }
+          }
+     if(classname>=15 && classname<=20){
+            if(element[0].innerHTML===item[4]){
+              console.log(score++);
+              element[0].style.backgroundColor="green";
+              document.getElementById("SCORE").innerHTML = score;
+            }
+            else{
+              console.log(score);
+              element[0].style.backgroundColor="darkred";
+              document.getElementById("SCORE").innerHTML = score;
+            }
+            }
+      if(classname>=21 && classname<=25){
+              if(element[0].innerHTML===item[5]){
+                console.log(score++);
+                element[0].style.backgroundColor="green";
+                document.getElementById("SCORE").innerHTML = score;
+              }
+              else{
+                console.log(score);
+                element[0].style.backgroundColor="darkred";
+                document.getElementById("SCORE").innerHTML = score;
+              }
+              }
+    }
+    
