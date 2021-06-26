@@ -5,5 +5,5 @@
 >
 >_Discussing frontend HTML basics and how we can show data/content on a webpage._
 >
-<img src="https://drive.google.com/uc?export=view&id=1q-nlQVgnXG7y1tEzby2rp9-A-gnVjWxB" width="820" height="490">
-<img src="https://drive.google.com/uc?export=view&id=1tM4YTAunGgs7ksSoWwvMF0GDNReQaJ0E" width="820" height="490">
+<img src="https://drive.google.com/uc?export=view&id=1q-nlQVgnXG7y1tEzby2rp9-A-gnVjWxB" width="590" height="390">
+<img src="https://drive.google.com/uc?export=view&id=1tM4YTAunGgs7ksSoWwvMF0GDNReQaJ0E" width="590" height="390">
