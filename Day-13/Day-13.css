@@ -14,7 +14,7 @@ body{
     visibility: block;
 }
 #canvas{
-    background-image: url(./bg3.png);
+    background-image: url(./img/bg3.png);
     height: 100vh;
     width: 380vw;
     background-position: center center;
@@ -60,7 +60,7 @@ body{
   align-items: center;
 
   width: 70%;
-  margin: auto auto;
+  margin: 0 auto;
   padding-top: 50px;
 
   color: rgb(255, 247, 206);
@@ -84,4 +84,103 @@ body{
 .change-country,
 .close{
   cursor: pointer;
+}
+.search-country{
+  position: relative;
+  top: 0px;
+}
+.search-box{
+  position: absolute;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 400px;
+  height: 40px;
+
+  background-color: #111;
+
+  z-index: 1;
+}
+.search-box input{
+  width: 360px;
+  height: 25px;
+
+  border: none;
+
+  background-color: transparent;
+  color: #FFF;
+
+  padding-left: 15px;
+
+  font-size: 15x;
+}
+.search-box img{
+  width: 25px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.country-list{
+  display: flex;
+
+  position: absolute;
+  top: 30px;
+
+  width: 400px;
+  height: 300px;
+
+  font-family:sans-serif;
+  font-size: 18px;
+
+  background-color: #111;
+  opacity: 0.8;
+
+  overflow-y: scroll;
+}
+
+.country-list ul{
+  width: 100%;
+}
+
+.country-list ul li{
+  list-style: none;
+  cursor: pointer;
+  padding: 10px;
+  color: #FFF;
+}
+.country-list ul li:hover{
+  border-left: 3px solid #FFF;
+}
+
+ .country-list::-webkit-scrollbar {
+  width: 10px;
+} 
+
+
+.country-list::-webkit-scrollbar-track {
+  background: #111;
+}
+
+
+.country-list::-webkit-scrollbar-thumb {
+  background: #F1F1F1;
+} 
+
+
+.country-list::-webkit-scrollbar-thumb:hover {
+  background: #FFF;
+}
+.hide{
+  display: none;
+}
+/* -------- CHART -------- */
+.chart{
+  width: 80%;
+  height: 70vh;
+  min-height: 500px;
+
+  margin: 0 auto;
+  padding: 50px 0;
 }
