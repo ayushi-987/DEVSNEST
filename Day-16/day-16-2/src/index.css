@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.division{
+    margin:  auto;
+    height: 240px;
+    width: 250px;
+    border:20px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.rows{
+    height: 200px;
+    width:25.9px;
+    border:1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+.block{
+    height:25.9px;
+    width:25.7px;
+    border:1px solid white)
+}
+
+.rows:nth-child(2n) .block:nth-child(2n), .rows:nth-child(odd) .block:nth-child(odd) {
+    background: #000;
+}
+h1{
+    margin: 100px 250px 100px 37%;
+    color:rgb(0, 0, 87);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+}
