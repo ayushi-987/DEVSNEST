@@ -1,0 +1,51 @@
+
+.container{
+    margin-left: 35%;
+    margin-top:10% ;
+    width:400px;
+    height:500px;
+    background-color: rgba(17, 0, 255, 0.185);
+    overflow: auto;
+}
+.item{
+    height: 100px;
+    font-size: 18px;
+    background-color: #92a6fc;
+    border-radius: 5px;
+    margin: 10px;
+}
+.item_name{
+    margin-top: 15px;
+    font-size: 25px;
+    color:darkred;
+    font-family: cursive;
+}
+.calorie_count{
+    margin-top: 8px;
+    font-family: monospace;
+}
+.container::-webkit-scrollbar {
+ width: 10px;
+ max-height: 40px;
+} 
+
+
+.container::-webkit-scrollbar-track {
+    background-color: #92a6fc;
+}
+
+
+.container::-webkit-scrollbar-thumb {
+ background:darkred;
+
+} 
+
+
+.container::-webkit-scrollbar-thumb:hover {
+ background:darkred;
+
+}
+
+.hide{
+ display: none;
+}
